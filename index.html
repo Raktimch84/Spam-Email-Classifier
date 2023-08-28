@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Email Classifier</title>
+</head>
+<body style="text-align: center;">
+      <h1>Spam Email Classifier by Raktim</h1>
+      {% if result%}
+            <p>{{ result }}</p>
+      {% endif %}
+      <form method="post" action="/predict">
+          <label>Enter the Email</label>
+          <input type="text" name="email"><br><br>
+
+          <input type="submit" value="Click">
+      </form>
+      <p> This is a starter project that has been made by Raktim Chowdhury, a 4th year undergraduate engineering student from Kolkata</p
+      <p> The current version of the model uses Naive-Bayes Classifier with a custom data set from Kaggle.</p>
+      <p>The recorded accuracy of this model in Spam detection is a staggering - 99.01% </p>
+      <p>This project is also my first Online Deployment project, though i already have multiple ML models deployed locally on my PC.</p>
+      <p>Thank you for visiting !!</p>
+      <p>Also you can follow me on Instagram, GitHub or give my YouTube channel a subscription. Links down below!!</p>
+      <ul>
+          <li><a href="https://www.instagram.com/raktimmhhmm/">Instagram</a></li>
+          <br>
+          <li><a href="https://github.com/Raktimch84">GitHub Profile</a></li>
+          <br>
+          <li><a href="https://www.youtube.com/channel/UChpoAMzpYiRpgAJIBj-y4Bw">YouTube Profile</a></li>
+      </ul>
+</body>
+</html>
