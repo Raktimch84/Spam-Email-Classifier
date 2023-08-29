@@ -9,3 +9,4 @@ Werkzeug==2.2.2
 zipp==3.10.0
 numpy
 scikit-learn
+pandas
